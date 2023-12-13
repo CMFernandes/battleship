@@ -1,0 +1,28 @@
+.main-cont{
+    display: flex;
+    gap: 5rem;
+    
+}
+#player1-board,#ai-board{
+    display: grid;
+    width: 25rem;
+    height: 25rem;
+    grid-template-columns: repeat(10, 1fr);
+    border: 1px solid black;
+}
+
+.cell{
+    border: 1px solid black;
+}
+
+.ship{
+    background-color:rgb(9, 61, 85);
+}
+
+.miss{
+    background-color: red;
+}
+
+.hit{
+    background-color: green;
+}
