@@ -1,9 +1,13 @@
 .main-cont{
     display: flex;
     gap: 5rem;
-    
 }
-#player1-board,#ai-board{
+.boards{
+    display: flex;
+    gap: 5rem;
+}
+
+.board{
     display: grid;
     width: 25rem;
     height: 25rem;
@@ -11,6 +15,9 @@
     border: 1px solid black;
 }
 
+.hidden{
+    display:none;
+}
 .cell{
     border: 1px solid black;
 }
@@ -25,4 +32,25 @@
 
 .hit{
     background-color: green;
+}
+
+
+.ships{
+   display:flex;
+   flex-direction:column;
+   gap: 1rem;
+}
+
+.ship.container{
+   display: flex;
+   width:min-content;
+}
+.segment{
+    border: 1px solid black;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.vertical{
+    flex-direction: column;
 }
