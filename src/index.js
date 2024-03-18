@@ -1,3 +1,4 @@
+import "./style.css"
 import Game from "./model/game.js";
 
 let game = Game();
